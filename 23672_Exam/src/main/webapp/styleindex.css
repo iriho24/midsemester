@@ -1,0 +1,117 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-image: url('log.jpg'); /* Replace 'path/to/your/image.jpg' with the actual path to your background image */
+    background-size: cover; /* Cover the entire viewport */
+    background-repeat: no-repeat; /* Prevent repetition of the background image */
+    background-position: center; /* Center the background image */
+}
+
+
+/* Main container */
+/* Main container */
+/* Main container */
+#main_container {
+    width: 100%;
+    max-width: 900px; /* Adjust as needed */
+    margin: 100px auto; /* Adjust the top and bottom margin to center vertically */
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+
+/* Header */
+#header {
+    background-color: #4CAF50;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+
+/* Menu */
+#menu_tab {
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 10px;
+    text-align: center;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.menu {
+    list-style-type: none;
+    padding: 0;
+}
+
+.menu li {
+    display: inline;
+}
+
+.menu li a {
+    text-decoration: none;
+    color: #333;
+    padding: 10px 20px;
+    border-radius: 3px;
+    transition: background-color 0.3s ease;
+}
+
+.menu li a:hover {
+    background-color: #4CAF50;
+    color: #fff;
+}
+
+/* Center box */
+.center_box {
+    background-color: #fff;
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Left content */
+.left_content {
+    width: 100%;
+    max-width: 400px; /* Adjust as needed */
+    margin-top: 20px;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+/* Form styles */
+input[type="text"],
+input[type="password"],
+select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+input[type="submit"] {
+    padding: 12px 24px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
